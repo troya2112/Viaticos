@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29827.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viaticos.web", "Viaticos.web\Viaticos.web.csproj", "{16B6FCF8-E063-4652-8B49-4082817B69A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viaticos.web", "Viaticos.web\Viaticos.web.csproj", "{16B6FCF8-E063-4652-8B49-4082817B69A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viaticos.common", "Viaticos.common\Viaticos.common.csproj", "{C89F8325-AC5E-451C-B8EE-B6394FEC746F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viaticos.common", "Viaticos.common\Viaticos.common.csproj", "{C89F8325-AC5E-451C-B8EE-B6394FEC746F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viaticos.prism", "Viaticos.prism\Viaticos.prism\Viaticos.prism.csproj", "{A1115813-17EB-4249-ADC9-C2DC199CAE71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viaticos.prism", "Viaticos.prism\Viaticos.prism\Viaticos.prism.csproj", "{6AF53B5A-F02C-4C52-B591-3584F432A1B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viaticos.prism.Android", "Viaticos.prism\Viaticos.prism.Android\Viaticos.prism.Android.csproj", "{F418A78C-E82C-4A02-BA17-163D244B8732}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viaticos.prism.Android", "Viaticos.prism\Viaticos.prism.Android\Viaticos.prism.Android.csproj", "{327E1A04-A7E1-44B1-BBA8-0FFFF46B2120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,16 +25,16 @@ Global
 		{C89F8325-AC5E-451C-B8EE-B6394FEC746F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C89F8325-AC5E-451C-B8EE-B6394FEC746F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C89F8325-AC5E-451C-B8EE-B6394FEC746F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1115813-17EB-4249-ADC9-C2DC199CAE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1115813-17EB-4249-ADC9-C2DC199CAE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1115813-17EB-4249-ADC9-C2DC199CAE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1115813-17EB-4249-ADC9-C2DC199CAE71}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F418A78C-E82C-4A02-BA17-163D244B8732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F418A78C-E82C-4A02-BA17-163D244B8732}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F418A78C-E82C-4A02-BA17-163D244B8732}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F418A78C-E82C-4A02-BA17-163D244B8732}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F418A78C-E82C-4A02-BA17-163D244B8732}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F418A78C-E82C-4A02-BA17-163D244B8732}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6AF53B5A-F02C-4C52-B591-3584F432A1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF53B5A-F02C-4C52-B591-3584F432A1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF53B5A-F02C-4C52-B591-3584F432A1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF53B5A-F02C-4C52-B591-3584F432A1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327E1A04-A7E1-44B1-BBA8-0FFFF46B2120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327E1A04-A7E1-44B1-BBA8-0FFFF46B2120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327E1A04-A7E1-44B1-BBA8-0FFFF46B2120}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{327E1A04-A7E1-44B1-BBA8-0FFFF46B2120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327E1A04-A7E1-44B1-BBA8-0FFFF46B2120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327E1A04-A7E1-44B1-BBA8-0FFFF46B2120}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
