@@ -1,5 +1,6 @@
 ﻿using Prism;
 using Prism.Ioc;
+using Viaticos.common.Services;
 using Viaticos.prism.ViewModels;
 using Viaticos.prism.Views;
 using Xamarin.Forms;
@@ -30,9 +31,11 @@ namespace Viaticos.prism
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.Register<IApiService, ApiService>();
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
+
         }
     }
 }

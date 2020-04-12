@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Viaticos.common.Services
 {
-    public interface IApiService
+    public class ApiService : IApiService
     {
 
     }
